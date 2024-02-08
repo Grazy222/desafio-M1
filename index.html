@@ -1,0 +1,52 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador / Descriptografador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <img class="header_container_img" src="./imagem/Frame 6.png" alt="logotipo alura">
+        </div>
+    </header>
+    <main>
+        <section>  
+            <div class="container">
+                <h1>Criptografador / Descriptografador</h1>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" rows="4" cols="50"></textarea>
+                
+                <p class="info_p">
+                    <img class="alarme"  src="./imagem/alarme.png" alt="alarme" />
+                    <span class="alerta">Apenas letras minúsculas e sem acento.</span>
+                </p>
+                
+                <label for="operacao">Operação:</label>
+                    
+                <select id="operacao">
+                    <option value="criptografar">Criptografar</option>
+                    <option value="descriptografar">Descriptografar</option>
+                </select>
+                <button id="executar">Executar</button>
+                <button id="copiar">copiar</button>
+                <div class="resultado-container"> 
+                    <div id="resultado"></div>
+                        <img id="interatividade" class="hidden" src="./imagem/High quality products 1 1.png" alt="interetividade">
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        
+        <p class="footer_p">Criado por: Graciele Pereira</p>
+        <div class="footer_container">
+            <a href="https://github.com/Grazy222" target="_blank"><img class="rede-social" src="./imagem/GitHub.png" alt="github" /></a>
+            <a href="https://www.linkedin.com/in/graciele-pereira-1584201b7/"><img class="rede-social" src="./imagem/linkedin.png" alt="linkedin" /></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
